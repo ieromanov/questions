@@ -41,7 +41,7 @@ for (let i = 0; i < 10; i++) {
 ```js
 let foo = {
   name: 'bar',
-  sayName() {
+  sayName: () => {
     console.log(this.name)
   }
 }
