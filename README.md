@@ -49,9 +49,11 @@ let foo = {
 console.log(foo.sayName());
 ```
 
+### Что выведет `console.log`
 ```js
 var a = [2, undefiend, 1];
 a.sort(() => 0)
+сonsole.log(a);
 ```
 
 #### В каком порядке выведутся `console.log`-и
