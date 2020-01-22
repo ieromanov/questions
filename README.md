@@ -14,7 +14,7 @@ console.log(typeof b);
 
 ```js
 let a = ['2', '2', '2', '2'].map(parseInt)
-console..log(a);
+console.log(a);
 ```
 
 ```js
