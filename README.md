@@ -82,3 +82,15 @@ new Promise((resolve, reject) => {
     console.log(8)
   })
 ```
+
+#### Будет ли ошибка? И что будет в консоли?
+```js
+funstion foo({ one, two }) {
+    return {
+        one: one,
+        two: two
+    }
+}
+
+console.log(foo(false))
+```
