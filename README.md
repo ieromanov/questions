@@ -51,7 +51,7 @@ console.log(foo.sayName());
 
 ### Что выведет `console.log`
 ```js
-var a = [2, undefiend, 1];
+var a = [2, undefined, 1];
 a.sort(() => 0)
 сonsole.log(a);
 ```
